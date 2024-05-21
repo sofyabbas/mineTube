@@ -101,7 +101,52 @@ header {
 .right-section .video_call:hover {
    background-color: #cecece;
 }
-/* .bord {
-	/* Eleiminate */
-	/* border: dashed 1px blue;
-} */ 
+
+.content-area{
+	width: 100%;
+	height: calc(100vh - 56px);
+
+}
+.aside{
+	width: 280px;
+	height:100%;
+	padding-left:20px;
+	overflow-y: auto;
+}
+.nav a{
+	text-decoration: none;
+	display: flex;
+	align-items: center; 
+	color: #0f0f0f;
+	font-size: 2rem;
+	margin: 1px 0;
+	padding: 7px 0;
+}
+
+.nav .active{
+	color: #0f0f0f;
+}
+.nav{
+margin: 15px 0;;
+
+}
+.nav span{
+	margin-right: 20px;
+}
+
+  /* .bord {
+	border: dashed 1px blue;
+}   */
+
+.active:hover{
+	background-color: #dfdcdc;
+	border-radius: 10px;
+}
+hr{
+	margin: 10px 0;
+	color: #e5e5e5;
+	height: 1px;
+
+}
+
+ 
