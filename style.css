@@ -126,14 +126,17 @@ header {
 .content-area {
 	width: 100%;
 	height: calc(100vh - 56px);
+	display: flex;
+	flex-direction: row;
 
 }
 
 .aside {
 	width: 230px;
 	height: 100%;
+	/* position: relative; */
 	padding-left: 20px;
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
 
 }
 
@@ -148,9 +151,11 @@ header {
 	align-items: center;
 	color: #323232;
 	font-size: 1.7rem;
-	margin: 1px 0;
+	/* margin: 1px 0; */
 	padding: 7px 0;
+	margin-right: 20px;
 }
+
 
 .nav .active {
 	color: #0f0f0f;
@@ -158,32 +163,35 @@ header {
 
 .nav {
 	margin: 15px 0;
-	;
-
 }
+
 
 .nav span {
 	margin-right: 20px;
 }
 
-/* .bord {
-	border: dashed 1px blue;
-}    */
 
-.active:hover {
-	background-color: #dfdcdc;
+.active {
+	background-color: #f2f2f2;
 	border-radius: 10px;
+}
+
+.nav a:hover {
+	background-color: #f2f2f2;
+	border-radius: 6px;
 }
 
 hr {
 	margin: 10px 0;
-	color: #f0f0f0;
+	color: #e5e5e5;
 	height: 1px;
+	background-color: transparent;
 }
 
 .nav h2 {
 	font-size: 2rem;
 	color: #323232;
+	padding-left: 15px;
 }
 
 .material-icons {
@@ -198,5 +206,86 @@ hr {
 	height: 24px;
 	width: 24px;
 	border-radius: 50%;
-	margin:0 20px 0 10px;
+	margin: 0 20px 0 10px;
 }
+
+.createror-image img {
+	height: 24px;
+	width: 24px;
+	border-radius: 50%;
+	margin: 0 20px 0 10px;
+}
+
+.video-cards {
+	margin: 30pxs;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.video-card {
+	width: 31%;
+	margin: 10px;
+
+}
+
+.thumbNamail img {
+	width: 100%;
+	overflow: auto;
+	border-radius: 15px;
+}
+
+.video_details {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.createror-image {
+	width: 15%;
+	cursor: pointer;
+}
+
+.txt {
+	width: 75%;
+}
+
+.txt p {
+	font-size: 1.7rem;
+	color: #606060;
+	cursor: pointer;
+}
+
+.more {
+	width: 10%;
+	cursor: pointer;
+}
+
+main {
+
+	width: 80%;
+	margin-left: 20px;
+}
+
+aside {
+	border: #000 dashed 1px;
+	width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bord {
+		border: dashed 1px green;
+	}
+.bordy {
+	border: dashed 1px yellow;
+} */
