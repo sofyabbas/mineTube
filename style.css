@@ -4,6 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 html {
@@ -237,6 +238,7 @@ hr {
 .video_details {
 	display: flex;
 	flex-direction: row;
+	margin-top: 15px;
 
 }
 
@@ -247,6 +249,7 @@ hr {
 
 .txt {
 	width: 75%;
+
 }
 
 .txt p {
@@ -264,12 +267,22 @@ main {
 
 	width: 80%;
 	margin-left: 20px;
+	overflow-y: auto;
+	scrollbar-width: none;
+	
 }
+
 
 aside {
 	border: #000 dashed 1px;
 	width: 20%;
+	overflow-y: auto;
 }
+/* 
+.content-area{
+	overflow-y: auto;
+	scrollbar-width: none;
+} */
 
 
 
